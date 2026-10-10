@@ -1,0 +1,16 @@
+# 工作区私有数据（memory、偏好、潜在密钥）——绝不入库
+.workbuddy/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 环境变量与密钥
+.env
+*.key
+*.pem
+
+# 构建产物（打包 zip 无需进仓库）
+llm-router.zip
